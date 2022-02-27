@@ -1,0 +1,22 @@
+diff --git a/node_modules/react-native-elements/src/header/Header.js b/node_modules/react-native-elements/src/header/Header.js
+index 4ab49d7..67431ea 100644
+--- a/node_modules/react-native-elements/src/header/Header.js
++++ b/node_modules/react-native-elements/src/header/Header.js
+@@ -179,7 +179,7 @@ const styles = {
+     borderBottomWidth: StyleSheet.hairlineWidth,
+     paddingHorizontal: 10,
+     backgroundColor: theme.colors.primary,
+-    paddingTop: getStatusBarHeight(),
++    
+     flexDirection: 'row',
+     justifyContent: 'space-between',
+     alignItems: 'center',
+@@ -187,7 +187,7 @@ const styles = {
+       Platform.select({
+         android: 56,
+         default: 44,
+-      }) + getStatusBarHeight(),
++      }) 
+   }),
+   centerContainer: {
+     flex: 3,
